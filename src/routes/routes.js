@@ -5,7 +5,7 @@ import { Home } from '../components/Home';
 import { Projects } from '../components/Projects';
 import { Services } from '../components/Services';
 
-export default function routes() {
+const routes = () => {
     return (
         <Routes>
             <Route path="/portfolio" element={<Home />} />
@@ -16,3 +16,5 @@ export default function routes() {
         </Routes>
     )
 }
+
+export default routes
