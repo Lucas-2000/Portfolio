@@ -1,0 +1,33 @@
+.containerContent {
+    background: #2b2b2b;
+    width: 100%;
+}
+
+.headerContent {
+    max-width: 1120px;
+    padding: 2rem;
+    margin: 0 auto;
+
+    strong {
+        font: 700 1.5rem 'Poppins', sans-serif;
+
+        color: #eba417;
+
+        transition: color 0.3s;
+
+        &:hover {
+            color: #FFFFFF;
+         }
+    }
+
+    a {
+       margin-left: 6rem;
+       font: 600 1.125rem 'Poppins', sans-serif;
+
+       transition: color 0.5s;
+
+       &:hover {
+          color: #eba417;
+       }
+    }
+}
