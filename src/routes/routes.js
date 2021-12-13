@@ -9,10 +9,10 @@ export default function routes() {
     return (
         <Routes>
             <Route path="/portfolio" element={<Home />} />
-            <Route path="/portfolio/about" element={<About />} />
-            <Route path="/portfolio/services" element={<Services />} />
-            <Route path="/portfolio/projects" element={<Projects />} />
-            <Route path="/portfolio/contact" element={<Contact />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
         </Routes>
     )
 }
