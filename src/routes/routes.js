@@ -5,10 +5,10 @@ import { Home } from '../components/Home';
 import { Projects } from '../components/Projects';
 import { Services } from '../components/Services';
 
-const routes = () => {
+export default function routes() {
     return (
         <Routes>
-            <Route path="/portfolio" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
             <Route path="/projects" element={<Projects />} />
@@ -16,5 +16,3 @@ const routes = () => {
         </Routes>
     )
 }
-
-export default routes
